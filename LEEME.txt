@@ -1,0 +1,18 @@
+
+https://angular-maps.com/guides/getting-started/
+
+npm i @agm/core@^3.0.0-beta.0
+
+La version 3 tiene un problema al obtener el evento de mapClick. Se recomienda
+hacer un downgrade: npm i @agm/core@1.1.0
+La version 1.1.0 deja de reconocer las etiquetas agm-map
+
+
+npm install @angular/google-maps	^12.2.12
+
+?Carga dinámica de google maps
+@googlemaps/js-api-loader^1.12.8
+
+Instalarlo con save dev para que se agregue en las devdependencies
+npm i @types/googlemaps@3.39.13 --save-dev
+
